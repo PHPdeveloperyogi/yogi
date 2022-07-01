@@ -1,0 +1,203 @@
+.main{
+  background-color: whitesmoke;
+  height: 100vh;
+}
+.mainbox{
+  width:20px;
+  display: flex;
+}
+.card1{
+  width: 440px;
+  min-width: 440px;
+  height: 535px;
+  color:black;
+  z-index: 100;
+  margin-top: 30px !important;
+  margin-left: 1300px !important;
+  padding:5%;
+  background-color: white;
+}
+.button1{
+  font-family:Lato;
+}
+form input{
+  color: rgba(0, 0, 0, 0.87);
+  width:220px;
+  height:48px;
+}
+.openmodelbtn{
+  font-family: poppins;
+}
+.googlebtn{
+  text-decoration: none;
+  text-align: center;
+  padding:5px;
+  color:rgba(0, 0, 0, 0.45);
+  font-family: poppins;
+  border:1px solid rgba(223, 223, 223, 0.8);
+}
+.line{
+  border: none;
+  border-bottom:solid 4px rgba(223, 223, 223, 0.8);
+  bottom: 50px;
+  position:absolute;
+  z-index: 2;
+  left: 0%;
+}
+.image1{
+  justify-content: center;
+  z-index: 2;
+  position:absolute;
+  left: 60px;
+  bottom:40px;
+  width: 13.5%;
+}
+.image2{
+  z-index: 2;
+  position:absolute;
+  left: 21%;
+  bottom:54px;
+  width: 10.5%;
+}
+.image3{
+  z-index: 2;
+  position: absolute;
+  right: 17%;
+  bottom:28px;
+  width: 22%;
+}
+.image4{
+  z-index: 2;
+  position: absolute;
+  right: 4%;
+  bottom:10px;
+  width: 14%;
+}
+#eyepwd1{
+  position:relative;
+  color:slategray;
+  left: 360px;
+  top:40px;
+}
+.loginbtn{
+  width:154px;
+  height:40px;
+  background-color:rgba(0, 0, 0, 0.12) !important;
+  color: rgba(0, 0, 0, 0.26) !important;
+  border: none;
+}
+.loginbtn2{
+  width:154px;
+  height:40px;
+  background-color: #2eb9d2 !important;
+  color:white;
+  border:none;
+}
+@media screen and (max-width:1450px){
+  .line{
+      display: none;
+  }
+  .card1{
+    margin-top: -50px !important;
+    margin-left: 1200px !important;
+  }
+}
+@media screen and (max-width : 1250px){
+  .card1{
+    min-width: 300px;
+    margin-left: 1000px !important;
+  }
+  .main{
+    background-color:whitesmoke ;
+    height: 120vh;
+  }
+  #eyepwd1{
+    position:relative;
+    color:slategray;
+    left: 220px;
+    top:40px;
+  }
+}
+@media screen and  (max-width : 1000px) {
+  .image1,.image2,.image3,.image4{
+      display: none;
+  }
+  .main{
+      background-color: white;
+  }
+  .card1{
+    margin-top: 0px !important;
+    margin-left: 750px !important;
+  }
+}
+@media screen and (max-width:500px){
+  .main{
+      background-color: whitesmoke;
+      height: 830px;
+  }
+  .card1{
+    margin-top: 0px !important;
+    margin-left: 450px !important;
+  }
+}
+
+.google{
+  width: 15px;
+}
+.or{
+  display:flex;
+  font-size:smaller;
+  flex-direction: row;
+}
+.or:before,
+.or:after{
+  content: " ";
+  flex: 1 1;
+  border-bottom: 2px solid rgb(226, 233, 233);    
+  margin:auto;
+}
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {
+  font-size: 0px !important;
+}
+.goog-te-gadget img {
+  display: none;
+}
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * {
+  padding: 1rem;
+  border-radius: 4px;
+  width: 50%;
+  float:right;
+  background-color: white;
+  border: 0px;
+}
+.goog-te-banner-frame {
+  display: none;
+}
+.flexStyle{
+  display: flex; 
+  justify-content: center;
+}
+.logo{
+  width: 80%;
+}
+.in{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.in2{
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top:0px;
+}
+.or{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.form-control:focus {
+  color: #212529;
+  border-color: #fe8686 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%) !important;
+}
+
+
